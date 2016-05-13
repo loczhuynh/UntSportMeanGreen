@@ -1,0 +1,264 @@
+﻿<div id="body">
+  
+    
+    <table id="schedule" style="width:100%">
+        <caption><h1>UNT Sports Schedules</h1></caption>
+        <tr>
+            <th>Schedule ID</th>
+            <th>Sport Type</th>
+            <th>Tournament</th>
+            <th>Date</th>
+            <th>Opponent / Event</th>
+            <th>Location</th>
+            <th>Time / Result</th>
+        </tr>
+    </table>
+</div>
+
+<table style="width:100%">
+    <tr>
+        <td style="vertical-align: top; width: 35%">
+            <form id="addScheduleForm" method="post" style="margin-left:10px;">
+                <h3>Create a new Schedule</h3>
+                <p>
+                    <label for="categoryIdLabel">Category Id</label>
+                    <input type="text" name="CategoryId" />
+                </p>
+                <p>
+                    <label for="tournamentIdLabel">Tournament Id</label>
+                    <input type="text" name="TournamentId" />
+                </p>
+                <p>
+                    <label for="seasonLabel">Season</label>
+                    <input type="text" name="Season" />
+                </p>
+                <p>
+                    <label for="dateLabel">Date</label>
+                    <input type="text" name="Date" />
+                </p>
+                <p>
+                    <label for="opponentLabel">Opponent</label>
+                    <input type="text" name="Opponent" />
+                </p>
+                <p>
+                    <label for="eventLabel">Event</label>
+                    <input type="text" name="Event" />
+                </p>
+                <p>
+                    <label for="locationLabel">Location</label>
+                    <input type="text" name="Location" />
+                </p>
+                <p>
+                    <label for="timeLabel">Time</label>
+                    <input type="text" name="Time" />
+                </p>
+                <p>
+                    <label for="resultLabel">Result</label>
+                    <input type="text" name="Result" />
+                </p>
+                <p>
+                    <label for="descriptionLabel">Description</label>
+                    <input type="text" name="Description" />
+                </p>
+                <input type="button" id="saveSchedule" value="Save" />
+            </form>
+
+        </td>
+        <td style="vertical-align:top; width:35%">
+            <form id="updateScheduleForm" method="put" enctype="application/x-www-form-urlencoded">
+                <h3>Update a Schedule</h3>
+                <p>
+                    <label for="scheduleIdLabel">Schedule Id</label>
+                    <input type="text" name="ScheduleId" />
+                </p>
+                <p>
+                    <label for="categoryIdLabel">Category Id</label>
+                    <input type="text" name="CategoryId" />
+                </p>
+                <p>
+                    <label for="tournamentIdLabel">Tournament Id</label>
+                    <input type="text" name="TournamentId" />
+                </p>
+                <p>
+                    <label for="seasonLabel">Season</label>
+                    <input type="text" name="Season" />
+                </p>
+                <p>
+                    <label for="dateLabel">Date</label>
+                    <input type="text" name="Date" />
+                </p>
+                <p>
+                    <label for="opponentLabel">Opponent</label>
+                    <input type="text" name="Opponent" />
+                </p>
+                <p>
+                    <label for="eventLabel">Event</label>
+                    <input type="text" name="Event" />
+                </p>
+                <p>
+                    <label for="locationLabel">Location</label>
+                    <input type="text" name="Location" />
+                </p>
+                <p>
+                    <label for="timeLabel">Time</label>
+                    <input type="text" name="Time" />
+                </p>
+                <p>
+                    <label for="resultLabel">Result</label>
+                    <input type="text" name="Result" />
+                </p>
+                <p>
+                    <label for="descriptionLabel">Description</label>
+                    <input type="text" name="Description" />
+                </p>
+                <input type="button" id="updateSchedule" value="Update" />
+            </form>
+        </td>
+        <td style="vertical-align:top; width:30%">
+            <form id="deleteScheduleForm" method="delete">
+                <h3>Delete a Schedule</h3>
+                <p>
+                    <label for="deleteScheduleIdLabel">Enter Schedule Id</label>
+                    <input type="text" id="txtscheduleid" />
+                    @*<input type="button" id="deleteSchedule" value="Delete" />*@
+                    <button id="deleteSchedule">Delete</button>
+
+                </p>
+            </form>
+        </td>
+    </tr>
+</table>
+@section scripts{
+    <script type="text/javascript">
+
+        //The Document Ready Event, started at the time document ready
+        $(function () {
+            //$.getJSON('/api/schedule', function (Get) {
+            //    var htmlTable = "";
+            //    $(Get).each(function (i, item) {
+            //        htmlTable = '<tr><td>' + item.scheduleId + '</td><td>' + item.category.name + '</td><td>' + item.tournament.name + '</td><td>' + item.date + '</td><td>'
+            //            + item.opponent + ' / ' + item.event + '</td><td>' + item.location + '</td><td>' + item.time + ' / ' + item.result + '</td></tr>'
+            //        $('#schedule').append(htmlTable);
+                    
+            //    });
+            //});
+            DisplayAllSchedule();
+        });
+
+        function DisplayAllSchedule() {
+            $.getJSON('/api/schedule', function (Get) {
+                var htmlTable = "";
+                $(Get).each(function (i, item) {
+                    htmlTable = '<tr><td>' + item.scheduleId + '</td><td>' + item.category.name + '</td><td>' + item.tournament.name + '</td><td>' + item.date + '</td><td>'
+                        + item.opponent + ' / ' + item.event + '</td><td>' + item.location + '</td><td>' + item.time + ' / ' + item.result + '</td></tr>'
+                    $('#schedule').append(htmlTable);
+
+                });
+            });
+        }
+
+        $('#saveSchedule').click(function()
+        {
+            $.post('api/schedule',
+                    $('#addScheduleForm').serialize(),
+                    function(value)
+                    {
+                        //display new added schedule to table 
+                        var html = "";
+                        html = '<tr><td>' + value.scheduleId + '</td><td>' + value.category.name + '</td><td>' + value.tournament.name + '</td><td>' + value.date + '</td><td>'
+                        + value.opponent + ' / ' + value.event + '</td><td>' + value.location + '</td><td>' + value.time + ' / ' + value.result + '</td></tr>'
+                        $('#schedule').append(html);
+                        
+                    },
+                    "json"
+            );
+            
+        }
+     );
+
+        //put: update schedule
+        $('#updateSchedule').click(function () {
+            //use ajax call to invoke put method in web api
+            var dataToPost;
+            dataToPost = $('#updateScheduleForm').serialize();
+
+            //alert(dataToPost);
+
+            var id = $('[name="ScheduleId"]').val();// $('[name="ElementNameHere"]')
+
+            //alert(id);
+            var json = JSON.stringify(dataToPost);
+
+            //alert(json);
+            
+            $.ajax({
+                url: '/api/schedule/' + id,
+                type: 'PUT',
+               
+               dataType: 'json',
+                contentType: "application/x-www-form-urlencoded",
+               // contentType: "application/json;charset=utf-8",
+                data: json,
+                
+                success: function () {
+                    //DisplayAllSchedule(); //update the latest schedules
+                    //alert("i m ook")
+                },
+                error: function (x, y, z) {
+                    //alert(x + '\n' + y + '\n' + z);
+                },
+                complete: function (response, textStatus) {
+                   //DisplayAllSchedule();
+
+                }
+
+            });
+        }
+     );
+
+
+        $('#deleteSchedule').click(function ()
+        {
+            //get id from scheduleId text 
+            var id = $("#txtscheduleid").val();
+            //alert("schedule id = " + id);
+
+            //use ajax call to invoke web api
+            $.ajax({
+                url: '/api/schedule/' + id,
+                type: 'DELETE',
+                dataType: 'text',
+                contentType: "application/json;charset=utf-8",
+                //statusCode:
+                //    {
+                //        200: function () {
+                //            $('#shedule').clear();
+                //            //reload
+                //            DisplayAllSchedule();
+                //        }
+                //    }
+                success: function () {
+                    DisplayAllSchedule(); //update the latest schedules
+                },
+                error: function (x, y, z) {
+                    //alert(x + '\n' + y + '\n' + z);
+                },
+                complete: function (response, textStatus) {
+                    DisplayAllSchedule();
+                    
+                }
+                
+            });
+
+        }
+        
+     );
+
+        $(window).bind('beforeunload', function () {
+            //refersh table
+            DisplayAllSchedule();
+
+        });
+     
+    </script>
+}

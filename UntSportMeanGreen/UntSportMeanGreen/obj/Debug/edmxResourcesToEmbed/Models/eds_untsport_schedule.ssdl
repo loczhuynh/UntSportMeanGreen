@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbuntsportModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="schedule">
+    <Key>
+      <PropertyRef Name="ScheduleId" />
+    </Key>
+    <Property Name="ScheduleId" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryId" Type="uint" Nullable="false" />
+    <Property Name="TournamentId" Type="int" Nullable="false" />
+    <Property Name="Opponent" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Location" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Result" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Time" Type="time" Precision="0" Nullable="false" />
+    <Property Name="Event" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Season" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="1000" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tournament">
+    <Key>
+      <PropertyRef Name="TournamentId" />
+    </Key>
+    <Property Name="TournamentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="schedule_ibfk_1">
+    <End Role="category" Type="Self.category" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="schedule" Type="Self.schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="schedule">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="schedule_ibfk_2">
+    <End Role="tournament" Type="Self.tournament" Multiplicity="1" />
+    <End Role="schedule" Type="Self.schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tournament">
+        <PropertyRef Name="TournamentId" />
+      </Principal>
+      <Dependent Role="schedule">
+        <PropertyRef Name="TournamentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbuntsportModelStoreContainer">
+    <EntitySet Name="category" EntityType="Self.category" Schema="dbuntsport" store:Type="Tables" />
+    <EntitySet Name="schedule" EntityType="Self.schedule" Schema="dbuntsport" store:Type="Tables" />
+    <EntitySet Name="tournament" EntityType="Self.tournament" Schema="dbuntsport" store:Type="Tables" />
+    <AssociationSet Name="schedule_ibfk_1" Association="Self.schedule_ibfk_1">
+      <End Role="category" EntitySet="category" />
+      <End Role="schedule" EntitySet="schedule" />
+    </AssociationSet>
+    <AssociationSet Name="schedule_ibfk_2" Association="Self.schedule_ibfk_2">
+      <End Role="tournament" EntitySet="tournament" />
+      <End Role="schedule" EntitySet="schedule" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

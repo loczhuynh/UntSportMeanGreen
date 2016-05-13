@@ -1,0 +1,146 @@
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\UntSportMeanGreen.dll.config
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\UntSportMeanGreen.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\UntSportMeanGreen.pdb
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Antlr3.Runtime.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\EntityFramework.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Data.Edm.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Data.OData.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Web.Infrastructure.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Newtonsoft.Json.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Spatial.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Helpers.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Http.OData.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Http.Tracing.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Mvc.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Optimization.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Providers.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Razor.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.Deployment.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.Razor.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\WebGrease.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\EntityFramework.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Newtonsoft.Json.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Helpers.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Mvc.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Razor.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.Deployment.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.Razor.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Http.Tracing.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Http.OData.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Data.Edm.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Data.OData.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Spatial.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\de\Microsoft.Data.Edm.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\es\Microsoft.Data.Edm.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\it\Microsoft.Data.Edm.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\de\Microsoft.Data.OData.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\es\Microsoft.Data.OData.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\fr\Microsoft.Data.OData.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\it\Microsoft.Data.OData.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ja\Microsoft.Data.OData.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ko\Microsoft.Data.OData.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ru\Microsoft.Data.OData.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\de\System.Spatial.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\es\System.Spatial.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\fr\System.Spatial.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\it\System.Spatial.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ja\System.Spatial.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ko\System.Spatial.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ru\System.Spatial.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hans\System.Spatial.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hant\System.Spatial.resources.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\obj\Debug\UntSportMeanGreen.csprojResolveAssemblyReference.cache
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\obj\Debug\UntSportMeanGreen.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\obj\Debug\UntSportMeanGreen.pdb
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.Web.Common.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.Web.Mvc.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\WebActivatorEx.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\WebApiContrib.IoC.Ninject.dll
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.Web.Common.xml
+C:\MyDocuments\Personal\University\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.Web.Mvc.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\UntSportMeanGreen.dll.config
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\UntSportMeanGreen.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\UntSportMeanGreen.pdb
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Antlr3.Runtime.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\EntityFramework.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Data.Edm.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Data.OData.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Web.Infrastructure.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Newtonsoft.Json.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.Web.Common.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.Web.Mvc.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Spatial.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Helpers.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Http.OData.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Http.Tracing.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Mvc.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Optimization.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Providers.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Razor.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.Deployment.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.Razor.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\WebActivatorEx.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\WebApiContrib.IoC.Ninject.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\WebGrease.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.Web.Common.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Ninject.Web.Mvc.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\EntityFramework.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Newtonsoft.Json.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Helpers.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Mvc.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Razor.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.Deployment.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.WebPages.Razor.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Http.Tracing.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Web.Http.OData.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Data.Edm.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\Microsoft.Data.OData.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\System.Spatial.xml
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\de\Microsoft.Data.Edm.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\es\Microsoft.Data.Edm.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\it\Microsoft.Data.Edm.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\de\Microsoft.Data.OData.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\es\Microsoft.Data.OData.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\fr\Microsoft.Data.OData.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\it\Microsoft.Data.OData.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ja\Microsoft.Data.OData.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ko\Microsoft.Data.OData.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ru\Microsoft.Data.OData.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\de\System.Spatial.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\es\System.Spatial.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\fr\System.Spatial.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\it\System.Spatial.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ja\System.Spatial.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ko\System.Spatial.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\ru\System.Spatial.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hans\System.Spatial.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\bin\zh-Hant\System.Spatial.resources.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\obj\Debug\UntSportMeanGreen.csprojResolveAssemblyReference.cache
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\obj\Debug\UntSportMeanGreen.dll
+C:\My Documents\UNT\spring2016\4350\assignment\project\UntSportMeanGreen\UntSportMeanGreen\obj\Debug\UntSportMeanGreen.pdb

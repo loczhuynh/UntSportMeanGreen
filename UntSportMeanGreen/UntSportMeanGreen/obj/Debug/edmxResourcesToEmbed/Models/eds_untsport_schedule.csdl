@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbuntsportModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="schedules" Relationship="Self.schedule_ibfk_1" FromRole="category" ToRole="schedule" />
+  </EntityType>
+  <EntityType Name="schedule">
+    <Key>
+      <PropertyRef Name="ScheduleId" />
+    </Key>
+    <Property Name="ScheduleId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryId" Type="Int64" Nullable="false" />
+    <Property Name="TournamentId" Type="Int32" Nullable="false" />
+    <Property Name="Opponent" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Location" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Result" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" />
+    <Property Name="Time" Type="Time" Nullable="false" />
+    <Property Name="Event" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Season" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="category" Relationship="Self.schedule_ibfk_1" FromRole="schedule" ToRole="category" />
+    <NavigationProperty Name="tournament" Relationship="Self.schedule_ibfk_2" FromRole="schedule" ToRole="tournament" />
+  </EntityType>
+  <EntityType Name="tournament">
+    <Key>
+      <PropertyRef Name="TournamentId" />
+    </Key>
+    <Property Name="TournamentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="schedules" Relationship="Self.schedule_ibfk_2" FromRole="tournament" ToRole="schedule" />
+  </EntityType>
+  <Association Name="schedule_ibfk_1">
+    <End Role="category" Type="Self.category" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="schedule" Type="Self.schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="schedule">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="schedule_ibfk_2">
+    <End Role="tournament" Type="Self.tournament" Multiplicity="1" />
+    <End Role="schedule" Type="Self.schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tournament">
+        <PropertyRef Name="TournamentId" />
+      </Principal>
+      <Dependent Role="schedule">
+        <PropertyRef Name="TournamentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbuntsportEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="categories" EntityType="Self.category" />
+    <EntitySet Name="schedules" EntityType="Self.schedule" />
+    <EntitySet Name="tournaments" EntityType="Self.tournament" />
+    <AssociationSet Name="schedule_ibfk_1" Association="Self.schedule_ibfk_1">
+      <End Role="category" EntitySet="categories" />
+      <End Role="schedule" EntitySet="schedules" />
+    </AssociationSet>
+    <AssociationSet Name="schedule_ibfk_2" Association="Self.schedule_ibfk_2">
+      <End Role="tournament" EntitySet="tournaments" />
+      <End Role="schedule" EntitySet="schedules" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
